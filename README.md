@@ -1,16 +1,35 @@
-# noise_meter_shared_homes
+# 🔊 DecibelWatch
 
-A new Flutter project.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS-green)
+![Status](https://img.shields.io/badge/status-active-success)
 
-## Getting Started
+> **DecibelWatch** is a minimal Flutter app that keeps your shared spaces quiet.  
+It monitors ambient noise, lets you set tolerance thresholds, and alerts you when things get too loud.  
+Perfect for roommates, dorms, libraries, or families working from home.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- 📊 **Live Noise Monitoring** — real-time decibel (dB) readings
+- 🎚️ **Custom Threshold** — set your personal noise tolerance
+- 🔔 **Smart Alerts** — notification, vibration, or flashlight when noise is too high
+- 🗂 **Noise Log** — optional logging of noise events with timestamps
+- 📈 **Visual Insights** — view patterns of quiet vs noisy periods
+- 🔒 **100% Offline** — works without internet, no ads, no tracking
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (3.x recommended)
+- Android Studio or VS Code with Flutter plugin
+
+### Installation
+```bash
+git clone https://github.com/<your-username>/DecibelWatch.git
+cd DecibelWatch
+flutter pub get
+flutter run
