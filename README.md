@@ -29,7 +29,7 @@ Perfect for roommates, dorms, libraries, or families working from home.
 
 ### Installation
 ```bash
-git clone https://github.com/<your-username>/DecibelWatch.git
+git clone https://github.com/ruhulrahat/DecibelWatch.git
 cd DecibelWatch
 flutter pub get
 flutter run
